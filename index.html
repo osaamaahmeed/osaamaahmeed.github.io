@@ -1,11 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  I am not osama
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Osama Ahmed - Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">Osama Ahmed</a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Osama Ahmed</span>
+                    </h1>
+                    <p class="hero-subtitle">Mobile App Developr & Compatative
+                        Programmer</p>
+                    <p class="hero-description">
+                        I craft efficient, user-focused digital experiences that
+                        solve real-world problems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My
+                            Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In
+                            Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/osama.jpg" alt="Osama Ahmed" class="hero-photo">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/profile.jpg" alt="Osama Ahmed"
+                            class="about-photo">
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            I am Osama Ahmed, a Computer Science student with a
+                            deep-seated passion for software development and
+                            algorithmic problem-solving. My journey is currently
+                            focused on mastering the foundations of Computer
+                            Science—namely Object-Oriented Programming (OOP),
+                            Data Structures, and Algorithms—to build efficient
+                            and scalable software.
+
+                        </p>
+                        <p>
+                            The Problem Solver 🧠
+                            I am a dedicated competitive programmer, using C++
+                            to continuously hone my analytical skills. I've
+                            tackled 500+ algorithmic problems across various
+                            platforms and regularly push my limits by engaging
+                            in major contests, including training for the
+                            upcoming ECPC. This discipline drives my ability to
+                            break down complex challenges and engineer optimized
+                            solutions.
+                        </p>
+                        <p>
+                            The Aspiring Developer 📱
+                            While competitive programming is my current focus, I
+                            am actively building my specialisation in mobile
+                            application development. I'm learning Dart and
+                            Flutter to create modern, user-friendly, and
+                            high-performance applications. My goal is to
+                            leverage my strong algorithmic foundation to build
+                            robust and polished digital experiences.
+                        </p>
+                        <p>
+                            The Educator 🎥
+                            Beyond coding, I believe in sharing knowledge. I
+                            create educational content on YouTube where I
+                            provide free programming courses and share
+                            problem-solving strategies. It's a fantastic way to
+                            reinforce my own learning and contribute to the
+                            community.
+                        </p>
+                        <p>
+                            I am always eager to learn, improve, and contribute
+                            to impactful projects. Let's connect and build
+                            something great! 🚀
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>50+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>3+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h3>100%</h3>
+                                <p>Client Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Mobile Development</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Dart</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-screen-button"></i>
+                                <span>Flutter</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-fire"></i>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-diagram-project"></i>
+                                <span>BLoC / Cubit</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Competitive Programming</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <svg class="skill-icon-svg" viewBox="0 0 64 64" aria-hidden="true">
+                                    <!-- Codeforces: three pillars, inherit current color -->
+                                    <rect x="8" y="28" width="10" height="28" rx="2" fill="currentColor"/>
+                                    <rect x="27" y="18" width="10" height="38" rx="2" fill="currentColor"/>
+                                    <rect x="46" y="8" width="10" height="48" rx="2" fill="currentColor"/>
+                                </svg>
+                                <span>Codeforces</span>
+                            </div>
+                            <div class="skill-item">
+                                <!-- LeetCode logo outline for better visibility -->
+                                <svg class="skill-icon-svg" viewBox="0 0 64 64" aria-hidden="true">
+                                    <path d="M39 8a5 5 0 0 1 0 10h-9L18 30l12 12h9a5 5 0 0 1 0 10H34a5 5 0 0 1-3.5-1.5l-16-16a5 5 0 0 1 0-7l16-16A5 5 0 0 1 34 8h5z" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M44 32H32" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                                </svg>
+                                <span>LeetCode</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-cubes"></i>
+                                <span>OOP</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-sitemap"></i>
+                                <span>Data Structure</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-c"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-diagram-project"></i>
+                                <span>Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Other</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Cursor</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-android"></i>
+                                <span>Android Studio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Loop Chat</h3>
+                            <p>A real-time chat application built with Flutter and Firebase, developed to strengthen skills in authentication, real-time updates, and cloud integrations.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-code"></i> Dart</span>
+                                <span><i class="fas fa-mobile-screen-button"></i> Flutter</span>
+                                <span><i class="fas fa-fire"></i> Firebase</span>
+                                <span><i class="fas fa-cloud"></i> Firebase Cloud</span>
+                                <span><i class="fas fa-database"></i> Realtime Database</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-newspaper"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>News App</h3>
+                            <p>A Flutter-based news application that fetches real-time data from RESTful APIs, with dynamic UI components and best practices for state management and error handling.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-code"></i> Dart</span>
+                                <span><i class="fas fa-mobile-screen-button"></i> Flutter</span>
+                                <span><i class="fas fa-plug"></i> RESTful API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>LibraLink</h3>
+                            <p>LibraLink is a simple C++ library management system highlighting core linked list operations to add, remove, search, sort, and display books using a doubly linked list.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-code"></i> C++</span>
+                                <span><i class="fas fa-cubes"></i> Data Structures</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together!</h3>
+                        <p>I'm always interested in new opportunities and
+                            exciting projects. Feel free to reach out!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>iiosamaahmed1@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+20 120 186 4338</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Egypt, Portsaid</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/osaamaahmeed"
+                                class="social-link"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/osaamahmeed/"
+                                class="social-link"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a
+                                href="https://www.facebook.com/profile.php?id=100003909814483"
+                                class="social-link"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href class="social-link"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name"
+                                placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email"
+                                placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject"
+                                placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message"
+                                placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Osama Ahmed. All rights reserved. (vibe
+                    coding)</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>
